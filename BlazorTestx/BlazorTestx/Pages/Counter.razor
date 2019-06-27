@@ -1,0 +1,22 @@
+@page "/counter"
+@inherits ViewForModel<CounterViewModel>
+@using System.Reactive.Linq
+
+@code {
+
+protected override async Task OnInitAsync()
+{
+ViewModel = new CounterViewModel();
+}
+
+void IncrementCount()
+{
+ViewModel.Counter++;
+}
+}
+
+<h1>Counter</h1>
+
+<p>Current count: @ViewModel.Counter</p>
+
+<button class="btn btn-primary" onclick="@IncrementCount">Click me</button>
