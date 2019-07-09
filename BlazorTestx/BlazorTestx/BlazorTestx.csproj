@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ReactiveUI\src\ReactiveUI.Blazor\ReactiveUI.Blazor.csproj" />
-    <ProjectReference Include="..\..\ReactiveUI\src\ReactiveUI\ReactiveUI.csproj" />
+    <ProjectReference Include="..\..\..\ReactiveUI\src\ReactiveUI.Blazor\ReactiveUI.Blazor.csproj" />
+    <ProjectReference Include="..\..\..\ReactiveUI\src\ReactiveUI\ReactiveUI.csproj" />
   </ItemGroup>
 
 </Project>
